@@ -42,11 +42,14 @@ public class BrokenLinksPage extends PageObject {
 	
 	
 	
-	public WebElement getbrokenLinksTitle() {
+	
+	
+
+	public WebElement getBrokenLinksTitle() {
 		return brokenLinksTitle;
-	}	
-	public void setbrokenLinksTitle(WebElement brokenLinksTitle) {
-		this.brokenLinksTitle = brokenLinksTitle;	
+	}
+	public void setBrokenLinksTitle(WebElement brokenLinksTitle) {
+		this.brokenLinksTitle = brokenLinksTitle;
 	}
 	public WebElement getHomeText() {
 		return homeText;
@@ -104,6 +107,8 @@ public class BrokenLinksPage extends PageObject {
 	public void setNombreCode200(List<WebElement> NombreCode200) {
 		this.NombreCode200 = NombreCode200;
 	}
+
+	
 
 	
 	

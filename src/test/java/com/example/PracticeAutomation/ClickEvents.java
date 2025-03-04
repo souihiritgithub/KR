@@ -60,6 +60,10 @@ public class ClickEvents {
             clickEvents.getBtnCow().click();
             assertEquals("Moo!", clickEvents.getMsgCow().getText());
             
+            //clickEvents.takeScreenShot("clickevents.jpg");
+            clickEvents.takeScreenShotByFolder(clickEvents.getClickEventsTitle(), "ClickEventsTitle");
+            //clickEvents.takeScreenShot(clickEvents.getMsgCat(), "getMsgCat.jpg");
+            
             
 			/*WebElement btn = driver
 					.findElement(By.xpath("//*[@id=\"post-3145\"]/div/div[3]/div/div/div/div[1]/button"));

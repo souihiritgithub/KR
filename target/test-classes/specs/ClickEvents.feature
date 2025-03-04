@@ -17,7 +17,7 @@
 ## (Comments)
 #Sample Feature Definition Template
 @tag
-Feature: Animals Sounds 
+Feature: Click Events 
  
 #@ready
 #Scenario Outline: Click Events Animals Without DDT

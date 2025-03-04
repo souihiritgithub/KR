@@ -51,7 +51,7 @@ public class BrokenLinks {
 			
 			assertEquals("HTTP response code", BrokenLinks.getHTTPResponseCodeText().getText());
 			
-			assertEquals("Broken Links", BrokenLinks.getbrokenLinksTitle().getText());
+			assertEquals("Broken Links", BrokenLinks.getBrokenLinksTitle().getText());
 			
 			assertEquals("Home", BrokenLinks.getHomeText().getText());
 			
@@ -67,6 +67,8 @@ public class BrokenLinks {
 			assertEquals("404", BrokenLinks.getQuatreCentQuatrePageText().getText());
 			
 			assertEquals(2,BrokenLinks.getNombreCode200().size());
+			
+			//BrokenLinks.takeScreenShot("BrokenLinks.jpg");
 		
 		} catch (Error e) {
 			verificationErrors.append(e.toString());
