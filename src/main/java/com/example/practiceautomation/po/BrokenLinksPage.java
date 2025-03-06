@@ -41,8 +41,7 @@ public class BrokenLinksPage extends PageObject {
 	private List<WebElement> NombreCode200;
 	
 	
-	
-	
+
 	
 
 	public WebElement getBrokenLinksTitle() {
@@ -110,7 +109,6 @@ public class BrokenLinksPage extends PageObject {
 
 	
 
-	
 	
 	
 }
