@@ -34,6 +34,12 @@ public class ClickEvents {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("start-maximized");
 		options.addArguments("--remote-allow-origins=*");
+		
+		options.addArguments("--headless=new");  // Utiliser le nouveau mode headless
+		options.addArguments("--disable-gpu");   // Désactiver l'accélération GPU
+		options.addArguments("--window-size=1920,1080"); // Définir une résolution
+		options.addArguments("--remote-allow-origins=*"); // Éviter certaines restrictions
+		options.addArguments("--disable-software-rasterizer"); // Désactiver le rendu logiciel
 		driver = new ChromeDriver(options);
 		baseUrl = "https://practice-automation.com/";
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
