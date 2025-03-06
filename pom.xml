@@ -25,7 +25,10 @@
     
     
     
-     
+    
+    
+  
+        
         <selenium.version>4.16.1</selenium.version> 
         <log4jcore.version>2.17.2</log4jcore.version>
         <log4japi.version>2.17.2</log4japi.version>
@@ -159,7 +162,12 @@
        
        
        
+       
+       
+       
 
+  
+  
   
   </dependencies>
   
